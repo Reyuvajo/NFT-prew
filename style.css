@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+
+.box {
+  max-width: 375px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.body {
+  margin-top: 25%;
+  width: 330px;
+  height: 545px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.body img {
+  margin-top: 25px;
+  width: 280px;
+  height: 280px;
+  border-radius: 7px;
+}
+
+.txt {
+  margin: 25px;
+  display: grid;
+  text-align: left;
+  background-color: transparent;
+  margin-bottom: 0;
+}
+
+.txt span:nth-child(1) {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  background-color: transparent;
+}
+.txt span:nth-child(2) {
+  width: 220px;
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  color: hsl(215, 51%, 70%);
+  background-color: transparent;
+}
+
+.eth {
+  background-color: transparent;
+}
+.eth img {
+  padding: 0;
+  margin: 0;
+  width: 10px;
+  height: 20px;
+}
+.eth span {
+  color: hsl(178, 100%, 50%);
+  align-items: center;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+.time {
+  background-color: transparent;
+}
+.time img {
+  padding: 0;
+  margin: 0;
+  width: 15px;
+  height: 15px;
+}
+
+.time span {
+  color: hsl(215, 51%, 70%);
+  background-color: transparent;
+}
+
+.footer {
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  background-color: transparent;
+  padding-top: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+  border-color: hsl(215, 32%, 27%);
+}
+
+.attribution {
+  padding-top: 5px;
+  font-size: 11px;
+  text-align: center;
+  color: hsl(215, 51%, 70%);
+  background-color: transparent;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 700;
+}
+.copy {
+  justify-content: space-between;
+  width: 280px;
+  margin: 0 auto;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 7px;
+}
+.copy img {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.copy .crt {
+  /* margin-top: 20px; */
+  width: 180px;
+  margin-left: 5px;
+  color: hsl(215, 51%, 70%);
+  font-size: 13px;
+  background-color: transparent;
+}
+
+.crt a {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+}
+
+.crt span {
+  color: white;
+  background-color: transparent;
+}
